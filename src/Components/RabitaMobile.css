@@ -1,0 +1,63 @@
+.rabita-mobile {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.rabita1 {
+  font-size: 35px;
+  width: 1120px;
+}
+
+.finance {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 1850px;
+}
+.finance1 {
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 50px;
+  margin-right: -300px;
+}
+
+.mobile {
+  width: 500px;
+  object-fit: contain;
+}
+.g-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  margin-top: -165px;
+}
+.photo-g {
+  width: 150px;
+  margin-left: -200px;
+}
+
+.qr {
+  margin-left: 25px;
+  line-height: 25px;
+  color: #333;
+}
+.rb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  padding-top: 50px;
+}
+.rabtaMobile {
+}
+@media only screen and (min-width: 220px) {
+  .rb {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 50px auto;
+  }
+  .rabtaMobile {
+  }
+}

@@ -1,0 +1,102 @@
+.Total-foot {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+}
+.All-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  width: 1000px;
+}
+.Foot-part a {
+  text-decoration: none;
+  color: grey;
+  line-height: 25px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.Foot-part a :hover {
+  color: black;
+}
+.Foot-part1 a {
+  text-decoration: none;
+  color: grey;
+  line-height: 25px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.Foot-part1 a :hover {
+  color: black;
+}
+.Foot-part2 a {
+  text-decoration: none;
+  color: grey;
+  line-height: 32px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.Foot-part2 a :hover {
+  color: black;
+}
+
+.Foot-part3 a {
+  text-decoration: none;
+  color: grey;
+  line-height: 25px;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.Foot-part3 a :hover {
+  color: black;
+}
+.Foot-part4 a {
+  text-decoration: none;
+  color: grey;
+  line-height: 30px;
+  margin-bottom: 50px;
+  font-size: 15px;
+}
+
+.Foot-part4 a :hover {
+  color: black;
+}
+.Foot-part ul li {
+  margin: 10px;
+  width: 150px;
+}
+.Foot-part1 ul li {
+  margin-left: 25px;
+  width: 150px;
+}
+.Foot-part2 ul li {
+  margin-bottom: -6px;
+  margin-left: 25px;
+  width: 150px;
+}
+.Foot-part3 ul li {
+  margin-left: 25px;
+  width: 150px;
+}
+.Foot-part4 {
+  margin-left: 25px;
+  width: 200px;
+}
+.Foot-part5 {
+  text-decoration: none;
+  color: black;
+
+  margin-top: 14px;
+  margin-left: 25px;
+  width: 200px;
+}
+@media screen and (min-width: 220px) {
+  .Total-foot {
+    width: 70%;
+    margin: 5px auto;
+  }
+  .All-part {
+  }
+}

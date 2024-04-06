@@ -1,0 +1,64 @@
+/* umumi div total */
+.total {
+  display: flex;
+  justify-content: space-around;
+}
+
+ img {
+  display: inline-block;
+  width: 11px;
+  object-fit: contain;
+ 
+}
+
+.common {
+  text-decoration: none;
+  color: #888;
+  font-size:9px;
+  font-weight: 450;
+  margin-left: 7px;
+}
+
+.location {
+  width: 12px;
+  object-fit: contain;
+}
+.BRANCH {
+  text-decoration: none;
+  color: #888;
+  font-size:9px;
+}
+
+.year {
+  display: inline-block;
+  width:80px;
+  text-decoration: none;
+  background-color: #80b554;
+  border-radius: 5px;
+  color: white;
+  font-size: 9px;
+  text-align: center;
+  padding: 4.5px;
+}
+.year:hover{
+  filter:brightness(90%);
+}
+.tot1 {
+  display: flex;
+  width:550px;
+}
+
+.branch {
+  margin-left: 11px;
+}
+@media only screen and (min-width: 290px) {
+  /* For desktop: */
+  /* .col-1 {width: 8.33%;} 
+
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;} */
+  .total {
+    width: 100%;
+  }
+}

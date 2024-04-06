@@ -1,0 +1,116 @@
+.first {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+.ferdi-biznes {
+  display: flex;
+  align-items: center;
+  width: 350px;
+}
+/* ////////////// */
+.second {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f1f4ee;
+  border-radius: 7px;
+  width: 61px;
+  padding: 4px;
+}
+
+.second img {
+  width: 22px;
+}
+.individual {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+  margin-right: 40px;
+}
+
+/* ///////////// */
+
+.three {
+  width: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  margin: 7px;
+}
+.three:hover {
+  background-color: #f1f4ee;
+  border-radius: 7px;
+}
+.bag {
+  width: 18px;
+}
+
+.biznes {
+  text-decoration: none;
+  color: black;
+  font-size: 11px;
+}
+/* ///////////// */
+
+.four {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f4ee;
+  border-radius: 100px;
+  width: 19px;
+  padding: 0.5rem 1.8rem;
+  margin-left: 20px;
+}
+
+.phone {
+  width: 12px;
+  margin-left: -15px;
+}
+
+.num {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+/* ///////////////// */
+
+.five {
+  display: flex;
+  width: 95px;
+  background-color: #80b554;
+  border-radius: 5px;
+  text-align: center;
+  margin-left: 10px;
+  padding: 11px;
+}
+.five:hover {
+  filter: brightness(90%);
+}
+.enter {
+  width: 9px;
+}
+
+.Internet-bankciliq {
+  text-decoration: none;
+  color: white;
+  font-size: 8px;
+  font-weight: 300;
+  margin-left: 5px;
+}
+
+.phone-internet {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+}

@@ -1,38 +1,140 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* .main {
+  width: 100%;
+  height: 100%;
+
+} */
+
+.hr {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hr1 {
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.creee {
+  margin: 0;
+  padding: 0;
+}
+.credit1 {
+  text-decoration: none;
+  color: black;
+  margin-right: 14px;
+}
+
+.card-total {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  margin-right: 15px;
+}
+
+.circles {
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-right: 12px;
+}
+
+.card-photo {
+  display: inline;
+  width: 15px;
+  object-fit: contain;
+  margin-right: 8px;
+}
+.cards1 {
+  text-decoration: none;
+  color: black;
+  margin-right: 15px;
+}
+
+.deposit1 {
+  text-decoration: none;
+  color: black;
+  margin-right: 20px;
+}
+.circle1 {
+  width: 20px;
+  height: 20px;
+  text-decoration: none;
+  background-color: #f1f4ee;
+  border-radius: 20px;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.lupa {
+  width: 23px;
+  border-radius: 50px;
+  background-color: #f1f4ee;
+  text-align: center;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.onlayn-novbe {
   color: white;
+  background-color: black;
+  background-size: 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  width: 90px;
+  padding: 8px;
+  font-size: 9px;
+  margin-left: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.onlayn-novbe:hover {
+  background-color: #f1f4ee;
+  color: gray;
+}
+.lupa-onlayn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.calendar {
+  display: inline-block;
+  color: white;
+  margin-right: 6px;
+  width: 11.5px;
+}
+
+.total-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+.nav-totalss {
+  display: flex;
+  align-items: center;
+}
+@media only screen and (min-width: 290px) {
+  /* For desktop: */
+  /* .col-1 {width: 8.33%;} 
+
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;} */
+  .total-nav {
+    width: 78.5%;
   }
-  to {
-    transform: rotate(360deg);
+  .nav-totalss {
+  }
+
+  .lupa-onlayn {
   }
 }
+
