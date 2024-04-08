@@ -8,7 +8,7 @@ const SuretliKecidler = () => {
       <div></div>
       <div className="first1">
         <div className="crossing">
-          <h2>Sürətli keçidlər </h2>
+          <h1>Sürətli keçidlər </h1>
         </div>
         <br />
         <div className="cashh-money">

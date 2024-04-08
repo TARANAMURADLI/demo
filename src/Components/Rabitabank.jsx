@@ -5,11 +5,13 @@ const Rabitabank = () => {
     <div>
       <br />
       <div className="first">
+        <div className="Second-p">
+        <div className="Logo-rabita">
         <img
           className="logo"
           src="https://www.rabitabank.com/images/rabitebank.svg"
         />
-    
+    </div>
        <div className="ferdi-biznes">
       <div className="second">
         <img
@@ -25,6 +27,7 @@ const Rabitabank = () => {
         <img className="bag" src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/external-bag-airport-kiranshastry-solid-kiranshastry.png" alt="external-bag-airport-kiranshastry-solid-kiranshastry"/>
         <a className="biznes" href="">Biznes</a>
         
+      </div>
       </div>
       </div>
       <div className="phone-internet">

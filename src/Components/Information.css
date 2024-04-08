@@ -52,13 +52,13 @@
   margin-left: 11px;
 }
 @media only screen and (min-width: 290px) {
-  /* For desktop: */
-  /* .col-1 {width: 8.33%;} 
-
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;} */
+ 
   .total {
-    width: 100%;
+    width: 70%;
+    margin: 10px auto;
   }
+.tot1{
+  width:1000px;
+}
+  
 }

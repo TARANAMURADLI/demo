@@ -40,7 +40,7 @@ function App() {
         </div>
         {/* ////// */}
         <div className="total-nav">
-          <div></div>
+          <div className="Nav-s">
 
           <div className="nav-totalss">
             <div>
@@ -85,7 +85,7 @@ function App() {
               />
               Onlayn növbə
             </Link>
-
+            </div>
             <Routes>
               <Route path="/" element={<Kreditler />} />
               <Route path="/Kartlar" element={<Kartlar />} />

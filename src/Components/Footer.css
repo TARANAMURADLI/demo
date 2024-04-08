@@ -1,102 +1,265 @@
 .Total-foot {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  width: 200px;
+   position: relative;
+   
+
+
 }
 .All-part {
+  content: "";
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 50px;
-  width: 1000px;
+  font-size: min(1em);
+   position: absolute;
+   width:1100px;
+   color: black;
+   font-weight:600;
+   margin-top: 50px;
+
 }
-.Foot-part a {
-  text-decoration: none;
+
+
+.Full-parts{
+  position: relative;
+   
+}
+.First-part{
+  content: "";
+  position: absolute;
+  top:80px;
+  left:-550px;
+  line-height:25px;
+
+}
+
+.First-part a{
   color: grey;
-  line-height: 25px;
-  margin-top: 10px;
-  font-size: 15px;
-}
-.Foot-part a :hover {
-  color: black;
-}
-.Foot-part1 a {
   text-decoration: none;
-  color: grey;
-  line-height: 25px;
-  margin-top: 10px;
-  font-size: 15px;
 }
-.Foot-part1 a :hover {
-  color: black;
-}
-.Foot-part2 a {
-  text-decoration: none;
-  color: grey;
-  line-height: 32px;
-  margin-top: 10px;
-  font-size: 15px;
-}
-.Foot-part2 a :hover {
+
+.First-part a :hover{
   color: black;
 }
 
-.Foot-part3 a {
-  text-decoration: none;
+
+.Second-part{
+  content: "";
+  position: absolute;
+  top:80px;
+  left:-325px;
+  line-height:25px;
+}
+
+
+.Second-part a{
   color: grey;
+  text-decoration: none;
+}
+
+.Second-part a :hover{
+  color: black;
+}
+
+
+.Three-part{
+  content: "";
+  position: absolute;
+  top:80px;
+  left:-90px;
+  line-height:25px;
+  width: 210px;
+  
+}
+
+.Three-part a{
+  color: grey;
+  text-decoration: none;
+}
+
+.Three-part a:hover{
+  color: black;
+  
+}
+
+.Four-part{
+  content: "";
+  position: absolute;
+  top:80px;
+  left:125px;
+  line-height:25px;
+  width: 180px;
+  
+}
+.Four-part a{
+  color: grey;
+  text-decoration: none;
+}
+
+.Four-part a:hover{
+  color: black;
+  
+}
+
+.Five-part{
+  content: "";
+  position: absolute;
+  top:80px;
+  left:280px;
+  line-height:25px;
+  width: 120px;
+  
+}
+.Five-part a{
+  color: grey;
+  text-decoration: none;
+}
+
+.Five-part a:hover{
+  color: black;
+  
+}
+
+.Six-part{
+  content: "";
+  position: absolute;
+  top:80px;
+  left:495px;
+  line-height:25px;
+  width: 180px;
+  
+}
+.Six-part a{
+  color: grey;
+  text-decoration: none;
+}
+
+.Six-part a:hover{
+  color: black;
+  
+}
+
+
+.App{
+  content: "";
+  position: absolute;
+  width:550px;
+  top:300px;
+  left:-560px;
+  display: flex;
+  justify-content: space-evenly;
+  
+   
+}
+
+.App-store{
+  width:150px;
+}
+
+.Google-play{
+  width:150px;
+}
+
+.App-gallery{
+  width:150px;
+}
+
+.Icons{
+  content: "";
+  position: absolute;
+  top:310px;
+  left:300px;
+  display: flex;
+  justify-content: space-evenly;
+  width:280px;
+  
+}
+.Watch{
+   margin-top:15px;
+   margin-right:10px;
+   font-size:11px;
+}
+.Facebook{
+  width:30px;
+  
+
+}
+
+.Twitter{
+  width:30px;
+ 
+}
+
+.Instagram{
+  width:30px;
+
+}
+
+.Youtube{
+  width:30px;
+  
+}
+
+.Linkedin{
+  width:30px;
+ 
+}
+.Last{
+  position: relative;
+  top:400px;
+  left:0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.Last-part{
+  width:500px;
   line-height: 25px;
-  margin-top: 10px;
-  font-size: 15px;
+  color:grey;
+  margin-left:-34px;
+  
 }
-.Foot-part3 a :hover {
-  color: black;
+.Info-finance{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 150px;
 }
-.Foot-part4 a {
-  text-decoration: none;
-  color: grey;
-  line-height: 30px;
-  margin-bottom: 50px;
-  font-size: 15px;
+.Info-bank{
+  width:110px;
+  margin-bottom:15px;
+  margin-left:50px;
+ 
 }
 
-.Foot-part4 a :hover {
-  color: black;
+.Finance{
+  width:110px;
+  margin-left: 0px;
 }
-.Foot-part ul li {
-  margin: 10px;
-  width: 150px;
-}
-.Foot-part1 ul li {
-  margin-left: 25px;
-  width: 150px;
-}
-.Foot-part2 ul li {
-  margin-bottom: -6px;
-  margin-left: 25px;
-  width: 150px;
-}
-.Foot-part3 ul li {
-  margin-left: 25px;
-  width: 150px;
-}
-.Foot-part4 {
-  margin-left: 25px;
-  width: 200px;
-}
-.Foot-part5 {
-  text-decoration: none;
-  color: black;
+.Finally{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:1000px;
 
-  margin-top: 14px;
-  margin-left: 25px;
-  width: 200px;
 }
+
+
 @media screen and (min-width: 220px) {
   .Total-foot {
-    width: 70%;
-    margin: 5px auto;
+     width:70%; 
+    margin:5px auto;
+   
   }
   .All-part {
+    margin: 10px auto;
+    margin-top: 50px;
+
+  
   }
+  .Last{
+    margin: 10px auto;
+  }
+ 
 }
+
