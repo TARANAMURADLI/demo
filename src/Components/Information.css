@@ -1,9 +1,18 @@
-/* umumi div total */
+
 .total {
   display: flex;
   justify-content: space-around;
+  
 }
+.All-total{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 
+
+
+  
+}
  img {
   display: inline-block;
   width: 11px;
@@ -45,20 +54,25 @@
 }
 .tot1 {
   display: flex;
-  width:550px;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .branch {
   margin-left: 11px;
 }
+
+
 @media only screen and (min-width: 290px) {
- 
-  .total {
-    width: 70%;
+  .All-total{
     margin: 10px auto;
+   
   }
-.tot1{
-  width:1000px;
-}
-  
+ 
+ .total{
+  margin: 10px auto;
+  width:2200px;
+ }
+
+
 }

@@ -233,7 +233,11 @@
 
 @media only screen and (min-width: 290px) {
   .cashh2 {
-    width: 100%;
+    width:100%;
+  }
+
+  .common-slayd{
+      margin:5px auto;
   }
 }
 /* sekil3 */

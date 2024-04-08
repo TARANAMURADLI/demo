@@ -2,9 +2,9 @@ import React from "react";
 import "./Rabitabank.css";
 const Rabitabank = () => {
   return (
-    <div>
+    <div className="First-second">
       <br />
-      <div className="first">
+      <div className="firstt">
         <div className="Second-p">
         <div className="Logo-rabita">
         <img

@@ -2,7 +2,7 @@ import React from "react";
 import "./Information.css";
 const Information = () => {
   return (
-    <div>
+    <div className="All-total">
       <div className="total">
         <div className="tot1">
           <div className="general">

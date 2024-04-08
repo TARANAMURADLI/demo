@@ -1,10 +1,16 @@
-.first {
+.First-second{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width:1700px;
-  /* margin: 10px auto; */
+  justify-content: space-around;
 }
+
+.firstt {
+  display: flex;
+   justify-content: space-around;
+   
+
+}
+
+
 .Logo-rabita{
  width: 200px;
 
@@ -123,17 +129,26 @@
 
 }
 .Second-p{
+ 
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin:5px auto;
+ 
+
 
 }
 @media screen and (min-width: 290px) {
-  
- .first{
- margin: 10px auto;
- width:80% auto;
+  .First-second{
+
+    margin: 10px auto;
+  }
+ .firstt{
+    width:1400px;
+    margin: 10px auto;
+ }
+ .Second-p{
+  margin: 10px auto;
+ 
  }
 
 }

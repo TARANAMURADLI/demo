@@ -17,6 +17,8 @@
   width:100%;
 }
 
+
+ 
 .creee {
   margin: 0;
   padding: 0;
@@ -117,30 +119,28 @@
 .nav-totalss {
   display: flex;
   align-items: center;
+  width:1500px;
 }
 
 .Nav-s{
   display: flex;
   justify-content: space-around;
   align-items: center;
+ 
   
 }
 @media only screen and (min-width:290px) {
   
-
+.total-nav{
+  
+ 
+}
   .Nav-s{
   
-    margin:10px auto;
-    width:1500px;
-   
+    width:1180px;
   }
  
-  .nav-totalss{
-    /* width:450px;
-    margin: 5px auto; */
-   
-    
-  }
+
 
 
 }
