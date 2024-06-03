@@ -6,7 +6,7 @@ const Information = () => {
       <div className="total">
         <div className="tot1">
           <div className="general">
-            <img src="https://cdn-icons-png.flaticon.com/512/2830/2830155.png" />
+            <img className="general" src="https://cdn-icons-png.flaticon.com/512/2830/2830155.png" />
             <a className="common" href="">
               Ümumi Məlumat
             </a>
@@ -15,9 +15,8 @@ const Information = () => {
           <div className="branch">
             <img
               className="location"
-              src="https://img.icons8.com/chameleon-regular/24/map-pin.png"
-              alt="map-pin"
-            />
+              src= "https://img.icons8.com/ios-glyphs/30/merge-git.png" />
+            
             <a className="BRANCH" href="">
               Filial və bankomtlar
             </a>

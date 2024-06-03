@@ -29,13 +29,15 @@
 }
 
 .location {
-  width: 12px;
+  width: 13px;
   object-fit: contain;
+ 
 }
 .BRANCH {
   text-decoration: none;
   color: #888;
   font-size:9px;
+  margin-left:5px;
 }
 
 .year {
